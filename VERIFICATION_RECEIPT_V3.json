@@ -1,0 +1,65 @@
+{
+  "authority_boundary": "This receipt verifies a local case card. It cannot revive a claim, clear private-first, publish, mail, commit, or push.",
+  "case_id": "NDE-08",
+  "checks": {
+    "core_matches_live_ledger": "PASS",
+    "declared_source_hashes": "PASS",
+    "frozen_live_file_and_ledger": "PASS",
+    "governed_annotations": "PASS",
+    "live_g23_closeouts": "PASS_OR_NOT_APPLICABLE",
+    "private_first_public_gate": "NOT_TRIGGERED",
+    "semantic_continuity": "V1_ACCEPTED_UNCHANGED"
+  },
+  "claim_authority": "NONE",
+  "decision_reasons": [
+    "The case stayed byte-identical to its accepted V1 card and all current custody checks pass."
+  ],
+  "disposition": "POSTABLE_AS_COLD_CASE",
+  "public_catalog_eligible": true,
+  "receipt_sha256": "306195cbf6305e2cb5ae90bd84fa3b3e066a1ee09153a60771154197eefd4dfa",
+  "route_id": "COLD_CASE_PIPELINE_CURRENT_INDEX_REVERIFICATION_V3",
+  "schema": "aletheia.cold-case-live-verification.v3",
+  "source_bindings": {
+    "case_file": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/cases/COLD_CASE_NDE-08.md",
+    "case_file_sha256": "833affa942844e61e7fae63893e7b15686e97ac1c76f4339a422c4d3e39bf901",
+    "declared_sources": [
+      {
+        "declared_sha256": "29c4601ddf346ad44221d93b4bc7c446ac435d0a2d9bf9e04eec1ec96df6718d",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "29c4601ddf346ad44221d93b4bc7c446ac435d0a2d9bf9e04eec1ec96df6718d",
+        "path": "/Users/bo/data/adp/investigations/consciousness_reverse_portfolio_2026-07-22/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "aa26db636c79311af1e3945e56c654b411b12bc392dbf2028b00a6fa4ba426b0",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "aa26db636c79311af1e3945e56c654b411b12bc392dbf2028b00a6fa4ba426b0",
+        "path": "/Users/bo/data/adp/investigations/crisis_apparition_boundary_repair_2026-08-05/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "def83b6288f6725663036a1a4d7992365c959427b90d9ec772efcab81bedffd8",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "def83b6288f6725663036a1a4d7992365c959427b90d9ec772efcab81bedffd8",
+        "path": "/Users/bo/data/adp/investigations/crisis_apparition_four_clock_continuation_2026-08-05/RUN_LESSON_CLOSEOUT.json"
+      }
+    ],
+    "ledger": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/COLD_CASE_LEDGER.csv",
+    "ledger_row_sha256": "a06ee4869e8aacfb96d58c8c2cc2bd9e33bb85fa663fca0ce75ae09947a47065",
+    "ledger_sha256": "43f656121adc1a155d92f579711f8d98f623876d7d1ed0a2c82019c140c28afe",
+    "semantic_adjudication": {
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/09_live_reverification/LIVE_EDIT_SEMANTIC_ADJUDICATION_V2.md",
+      "sha256": "858787a6d4dcd7b10913735756bf3646fa3e731f7071c84f956f54aba34efa9c"
+    },
+    "v1_final_receipt": {
+      "bytes": 2045,
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/02_case_verification_final/NDE-08.json",
+      "sha256": "ee8926f134b817261361241f04a2a656032d2ae6e4fe6b6dae5bbb508d80c8a3"
+    }
+  },
+  "verdict": "ACCEPTED"
+}
